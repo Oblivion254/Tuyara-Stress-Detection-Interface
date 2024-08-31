@@ -142,7 +142,7 @@ six==1.16.0
 smart-open==7.0.4
 SoundFile==0.10.3.post1
 soupsieve==2.3.2.post1
-SQLAlchemy==2.0.29
+SQLAlchemy==2.0.16
 stack-data==0.6.3
 StandardScaler==0.5
 sympy==1.12
@@ -165,7 +165,8 @@ tqdm==4.66.2
 traitlets==5.14.2
 transformers==4.39.3
 Turbo-Flask==0.8.0
-typing_extensions==4.11.0
+# typing_extensions==4.11.0
+typing-extensions>=3.7.4.3,<4.6.0
 tzdata==2022.1
 tzlocal==4.2
 urllib3==1.26.9
